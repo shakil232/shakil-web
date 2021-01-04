@@ -48,4 +48,50 @@ section{
     background-position:right ;
     
 }
+
 /* end header2*/
+/* start Experiences-aera*/
+.box{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.Experiences-aera .box h3 {
+    color: orange;
+}
+.Experiences-aera  h2 {
+    font-size: 35px;
+}
+.single-Experiences {
+    box-shadow: 10px 12px 40px gray;
+    border-radius: 8px;
+    height: 80%;
+    background-color: white;
+} 
+.Experiences-aera {
+    background-image: url( "images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.Experiences-aera p{
+    
+    color: dimgray;
+}
+#start-dev {
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+/* end Experiences-aera*/
+/* start footer*/
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+/* end footer*/
